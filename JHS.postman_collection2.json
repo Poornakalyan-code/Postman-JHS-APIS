@@ -712,7 +712,7 @@
 									"var Bodydata = JSON.parse(responseBody)\r",
 									"var BOOK = Bodydata.data[0].bookingid\r",
 									"console.log(BOOK)\r",
-									"pm.collectionVariables.set(\"BOOKINGID\",Bodydata.data[0].bookingid)\r",
+									"pm.collectionVariables.set(\"BOOKINGID\",Bodydata.data.bookingid)\r",
 									"\r",
 									"\r",
 									"var IM = Bodydata.data[0].driver.imei\r",
